@@ -1,4 +1,10 @@
-I am building a men’s style guide website and need a complete PHOTO PACKAGE of ONE male model: the man in the attached photo. Create EVERY image listed below, then give me ONE zip file containing all of them in the folder structure shown. Do not stop to ask questions. Work through the list in order; if you reach a limit, continue automatically in your next reply when I say “continue”, picking up at the next unfinished file, and make the zip at the end.
+I am building a men’s style guide website and need a complete PHOTO PACKAGE of ONE male model: the man in the attached photo. Create the images listed below, in order, following the rules exactly. Do not stop to ask questions.
+
+HOW TO WORK (strict):
+- Generate EACH file as its own separate full-resolution image. Never make contact sheets, grids, collages or previews, and never crop, slice or upscale images from a grid.
+- Make at most 4 images per reply, show them, then STOP and wait for me to say “continue”. Quality matters more than speed.
+- Every image must show exactly the item described. If you cannot make one correctly, skip it and list it at the end instead of substituting something else.
+- Only make the zip when I say “zip”, using only the images you actually generated.
 
 IDENTITY (most important):
 - The SAME man in every image: keep his face, eyes, eyebrows, nose, jawline, skin tone and build identical to the attached photo.

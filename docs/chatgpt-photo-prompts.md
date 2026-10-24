@@ -1,6 +1,6 @@
 # Photo package prompt (one go)
 
-Attach the model photo, then paste the whole of **[photo-package-prompt.txt](photo-package-prompt.txt)** into ChatGPT or Gemini. If it stops partway, reply “continue”. Send the zip to Claude to add it to the site.
+Attach the model photo, then paste the whole of **[photo-package-prompt.txt](photo-package-prompt.txt)** into ChatGPT or Gemini. It makes up to 4 images per reply; reply “continue” until it has made them all, then “zip”. If it ever produces grids or contact sheets, start a new chat: those images are too small and blurry to use. Send the zip to Claude to add it to the site.
 
 Only use a photo of someone who has agreed to have their likeness used on the site.
 
