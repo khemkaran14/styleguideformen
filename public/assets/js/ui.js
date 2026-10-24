@@ -256,6 +256,10 @@ function renderPick(){$('#drPick').innerHTML=PL().map(o=>`<button class="mini" d
 function renderTabs(){$('#drTabs').innerHTML=DRT.map(([k,n])=>`<button role="tab" data-tab="${k}" aria-selected="${D.tab===k}">${n}</button>`).join('')}
 const swatches=(part,cur,key='c')=>`<div class="sw">${PAL.map(([c,n])=>`<button data-col="${part}" data-key="${key}" data-c="${c}" style="background:${c}" aria-label="${n}" title="${n}" aria-pressed="${(cur||'').toLowerCase()===c.toLowerCase()}"></button>`).join('')}<input type="color" data-colin="${part}" data-key="${key}" value="${cur&&cur[0]==='#'&&cur.length===7?cur:'#888888'}" aria-label="Custom colour"></div>`;
 const optBtns=(attr,list,curKey)=>`<div class="row">${list.map(([k,n])=>`<button class="chip" data-${attr}="${k}" aria-pressed="${curKey===k}">${n}</button>`).join('')}</div>`;
+// real product photos (from the photo package) replace the text buttons where they exist
+const PIECECAT={top:'tops',bottom:'bottoms',layer:'jackets',shoe:'shoes',acc:'acc'};
+const pieceImg=(part,k)=>(PH.pieces||{})[PIECECAT[part]+'/'+k];
+const pieceBtns=(attr,part,list,isOn)=>list.some(([k])=>pieceImg(part,k))?`<div class="optgrid">${list.map(([k,n])=>`<button class="opt" data-${attr}="${k}" aria-pressed="${isOn(k)}">${pieceImg(part,k)?`<img src="${pieceImg(part,k)}" alt="" loading="lazy">`:'<span class="noimg"></span>'}<span>${n}</span></button>`).join('')}</div>`:null;
 function curKind(part){const g=D.fig[part];if(!g)return 'none';
   if(part==='top'){if(g.k==='kurta')return g.len==='short'?'kurtashort':'kurtalong';if(g.k==='sweater')return g.neck==='turtle'?'turtle':'sweater';return g.k}
   if(part==='bottom'){if(g.k==='trousers')return g.fit==='slim'?'slim':g.fit==='wide'?'wide':'trousers';return g.k}
@@ -264,7 +268,7 @@ function renderPanel(){
   if(!D.fig)return;const t=D.tab,f=D.fig;let h='';
   if(t==='top'||t==='bottom'||t==='layer'){
     const list=t==='top'?TOPS:t==='bottom'?BOTS:LAYS;const g=f[t];
-    h+=`<div><h4>Style</h4>${optBtns('kind',list.map(x=>[x[0],x[1]]),curKind(t))}</div>`;
+    const lst=list.map(x=>[x[0],x[1]]);h+=`<div><h4>Style</h4>${pieceBtns('kind',t,lst,k=>curKind(t)===k)||optBtns('kind',lst,curKind(t))}</div>`;
     if(g){
       if(t==='top'&&g.k==='shirt')h+=`<div class="row"><button class="chip" data-toggle="tuck" aria-pressed="${!!g.tuck}">Tucked in</button><button class="chip" data-toggle="short" aria-pressed="${g.sl==='short'}">Short sleeves</button></div>`;
       h+=`<div><h4>Colour · ${colourName(g.c)}</h4>${swatches(t,g.c)}</div>`;
@@ -272,9 +276,9 @@ function renderPanel(){
       if(g.p)h+=`<div><h4>Print colour</h4>${swatches(t,g.c2,'c2')}</div>`;
       if(t==='top'&&(g.k==='sherwani'||g.k==='bandhgala'||g.k==='angrakha')||t==='bottom'&&(g.k==='dhoti'||g.k==='mundu')||t==='layer'&&(g.k==='longjacket'||g.k==='tux'))h+=`<div><h4>Trim / border colour</h4>${swatches(t,g.c2,'c2')}</div>`;
     }
-  }else if(t==='shoe'){h+=`<div><h4>Style</h4>${optBtns('kind',SHOES,f.shoe.k)}</div><div><h4>Colour · ${colourName(f.shoe.c)}</h4>${swatches('shoe',f.shoe.c)}</div>`}
+  }else if(t==='shoe'){h+=`<div><h4>Style</h4>${pieceBtns('kind','shoe',SHOES,k=>f.shoe.k===k)||optBtns('kind',SHOES,f.shoe.k)}</div><div><h4>Colour · ${colourName(f.shoe.c)}</h4>${swatches('shoe',f.shoe.c)}</div>`}
   else if(t==='acc'){const acc=f.acc||[];const on=k=>acc.find(a=>a.split(':')[0]===k);
-    h+=`<div><h4>Add or remove</h4><div class="row">${ACCS.map(([k,n])=>`<button class="chip" data-acc="${k}" aria-pressed="${!!on(k)}">${n}</button>`).join('')}</div></div>`;
+    h+=`<div><h4>Add or remove</h4>${pieceBtns('acc','acc',ACCS.map(([k,n])=>[k,n]),k=>!!on(k))||`<div class="row">${ACCS.map(([k,n])=>`<button class="chip" data-acc="${k}" aria-pressed="${!!on(k)}">${n}</button>`).join('')}</div>`}</div>`;
     ACCS.filter(([k])=>on(k)&&k!=='sunglasses').forEach(([k,n,d])=>{const c=(on(k).split(':')[1])||d;h+=`<div><h4>${n} colour</h4>${swatches('acc:'+k,c)}</div>`});}
   else if(t==='hair'){h+=`<div><h4>Hairstyle · ${esc((HAIR.find(x=>x.id===f.hair)||{n:''}).n)}</h4><div class="optgrid">${HAIR.map(x=>`<button class="opt" data-hairpick="${x.id}" aria-pressed="${f.hair===x.id}">${headSVG({hair:x.id,skin:SKINS[f.sk??2],hc:f.hc||MODEL.hc,beard:f.beard,face:f.face})}<span>${esc(x.n)}</span></button>`).join('')}</div></div>
     <div><h4>Hair colour</h4><div class="sw">${HAIRCOLS.map(([c,n])=>`<button data-hc="${c}" style="background:${c}" aria-label="${n}" title="${n}" aria-pressed="${(f.hc||'').toLowerCase()===c.toLowerCase()}"></button>`).join('')}</div></div>

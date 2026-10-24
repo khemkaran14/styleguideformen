@@ -75,7 +75,9 @@ async function importPhotos(page, src) {
   for (const f of files) {
     const kind = path.basename(path.dirname(f)).toLowerCase(), id = path.basename(f).replace(/\.[^.]+$/, '').toLowerCase();
     let out, w, h;
-    if (ids[kind] && ids[kind].has(id)) { [w, h] = SIZE[kind].map(x => Math.round(x * 1.5)); out = path.join(IMG, 'photos', kind, id + '.jpg'); }
+    const parent = path.basename(path.dirname(path.dirname(f))).toLowerCase();
+    if (parent === 'pieces' && /^(shoes|acc|tops|bottoms|jackets)$/.test(kind) && /^[a-z0-9]+$/.test(id)) { [w, h] = [720, 720]; out = path.join(IMG, 'photos', 'pieces', kind, id + '.jpg'); }
+    else if (ids[kind] && ids[kind].has(id)) { [w, h] = SIZE[kind].map(x => Math.round(x * 1.5)); out = path.join(IMG, 'photos', kind, id + '.jpg'); }
     else if (kind === 'extras' && (id === 'og' || id === 'hero')) { [w, h] = id === 'og' ? [1200, 630] : [1920, 1080]; out = path.join(IMG, id === 'og' ? 'og.jpg' : 'hero.jpg'); }
     else { skipped.push(path.relative(dir, f)); continue; }
     mk(path.dirname(out));
@@ -121,7 +123,12 @@ async function drawBrand(page) {
 }
 
 function writeManifest() {
-  const P = { looks: {}, hair: {}, beards: {}, real: [] };
+  const P = { looks: {}, hair: {}, beards: {}, pieces: {}, real: [] };
+  const pdir = path.join(IMG, 'photos', 'pieces');
+  if (exists(pdir)) for (const cat of fs.readdirSync(pdir)) for (const f of fs.readdirSync(path.join(pdir, cat))) {
+    const full = path.join(pdir, cat, f);
+    P.pieces[cat + '/' + f.replace(/\.jpg$/, '')] = '/' + path.relative(PUB, full).split(path.sep).join('/') + '?v=' + Math.round(fs.statSync(full).mtimeMs / 1000).toString(36);
+  }
   const lists = { looks: L, hair: HAIR, beards: BEARDS };
   for (const kind of Object.keys(lists)) for (const x of lists[kind]) {
     const photo = path.join(IMG, 'photos', kind, x.id + '.jpg'), ill = path.join(IMG, 'ill', kind, x.id + '.jpg');
