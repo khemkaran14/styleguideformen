@@ -1,0 +1,22 @@
+{
+  "name": "ultimate-style-guide-men",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Ultimate Style Guide for Men: lookbook, hairstyles, Dressing Room, accounts and admin",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "backup": "node scripts/backup.js",
+    "images": "node scripts/render-images.js",
+    "photos": "node scripts/render-images.js --import"
+  },
+  "dependencies": {
+    "compression": "1.8.1",
+    "express": "5.1.0",
+    "express-rate-limit": "7.5.1",
+    "nodemailer": "6.9.16"
+  }
+}

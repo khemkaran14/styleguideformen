@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!--SEO-->
+<link rel="stylesheet" href="/assets/css/app.css?v=1">
+<link rel="stylesheet" href="/assets/css/footer.css?v=1">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><i>The</i> Ultimate Style Guide<small>for men</small></a>
+    <nav class="links" aria-label="Sections">
+      <a href="#lookbook">Lookbook</a>
+      <a href="#occasions">Occasions</a>
+      <a href="#hair">Hairstyles</a>
+      <a href="#quiz">Style Quiz</a>
+      <a href="#colours">Colours</a>
+      <a href="#studio">Dressing Room</a>
+      <a href="#rules">Rules</a>
+      <a href="#admin" id="adminLink" hidden>Admin</a>
+      <a href="#lookbook" class="saved-link" id="savedLink">♥ Saved <span id="savedCount">0</span></a>
+    </nav>
+    <button class="acct" id="acctBtn" aria-haspopup="dialog"><img id="acctAv" alt="" hidden><span id="acctLbl">Sign in</span></button>
+  </div>
+</header>
+
+<div class="announce" id="announce" hidden><div class="wrap" id="announceTxt"></div></div>
+<section class="hero" id="top">
+  <div class="wrap">
+    <span class="eyebrow">Ethnic · Fusion · Western · Hair &amp; grooming</span>
+    <h1><span class="the">The</span><span class="u">Ultimate</span> Style Guide<span class="for">for men</span></h1>
+    <p>Sherwanis to suits, kurtas to leather jackets, and the haircut that suits your face. Browse every look, see what to wear for each occasion, find your hairstyle, take the style quiz and restyle any outfit in the Dressing Room.</p>
+    <div class="stats" id="stats"></div>
+    <div class="lineup" id="lineup" aria-hidden="true"></div>
+  </div>
+</section>
+
+<main class="wrap">
+  <div class="note" role="note">
+    <span aria-hidden="true">✦</span>
+    <div><strong>Restyle anything.</strong> Open the <b>Dressing Room</b> to change colours, swap jackets, shoes and accessories, and try any of <span id="hairCountNote">26</span> hairstyles and 9 beard styles on the model. Not sure what suits your face? Try the <a href="#hair">face-shape finder</a>.</div>
+  </div>
+
+  <!-- LOOKBOOK -->
+  <section class="block" id="lookbook">
+    <div class="sec-head">
+      <div><span class="eyebrow">01 · The Lookbook</span><h2>Every look, <em>one rack</em></h2>
+      <p class="lede">Filter by style, origin or occasion. Tap a look for the full breakdown: pieces, footwear, accessories, colours and how to wear it.</p></div>
+    </div>
+    <div class="filters" role="group" aria-label="Filter looks">
+      <div class="frow"><span class="lbl">Style</span>
+        <button class="chip" data-f="cat" data-v="all" aria-pressed="true">All</button>
+        <button class="chip ethnic" data-f="cat" data-v="ethnic" aria-pressed="false">Ethnic</button>
+        <button class="chip fusion" data-f="cat" data-v="fusion" aria-pressed="false">Fusion / Indo-western</button>
+        <button class="chip western" data-f="cat" data-v="western" aria-pressed="false">Western</button>
+      </div>
+      <div class="frow"><span class="lbl">Origin</span>
+        <button class="chip" data-f="reg" data-v="all" aria-pressed="true">All</button>
+        <button class="chip" data-f="reg" data-v="Indian" aria-pressed="false">Indian</button>
+        <button class="chip" data-f="reg" data-v="Global" aria-pressed="false">Global</button>
+        <button class="chip" data-f="saved" data-v="1" aria-pressed="false" id="savedOnly">♥ Saved only</button>
+      </div>
+      <div class="frow"><span class="lbl">Find</span>
+        <select id="occSel" aria-label="Occasion"><option value="all">Any occasion</option></select>
+        <input type="search" id="q" placeholder="Search: sherwani, office, linen, navy…" aria-label="Search looks">
+        <span class="count" id="count"></span>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <!-- OCCASIONS -->
+  <section class="block" id="occasions">
+    <div class="sec-head"><div><span class="eyebrow">02 · Occasion Guide</span><h2>What to wear, <em>where</em></h2>
+    <p class="lede">Pick an occasion to see what works, what to skip, the colours that suit it, and the looks from this guide that fit.</p></div></div>
+    <div class="occ-grid" id="occGrid"></div>
+    <div class="occ-panel" id="occPanel"></div>
+  </section>
+
+  <!-- HAIR -->
+  <section class="block" id="hair">
+    <div class="sec-head"><div><span class="eyebrow">03 · Hairstyles &amp; Grooming</span><h2>The cut that <em>suits you</em></h2>
+    <p class="lede">Find your face shape, then filter by hair type, length and how much effort you want to put in. Every style comes with exactly what to tell your barber and how to style it at home.</p></div></div>
+    <div class="facefinder" id="faceFinder"></div>
+    <div class="filters" role="group" aria-label="Filter hairstyles">
+      <div class="frow"><span class="lbl">Face</span><span id="hfFace" class="row"></span></div>
+      <div class="frow"><span class="lbl">Hair type</span><span id="hfType" class="row"></span></div>
+      <div class="frow"><span class="lbl">Length</span><span id="hfLen" class="row"></span><span class="count" id="hCount"></span></div>
+      <div class="frow"><span class="lbl">Effort</span><span id="hfMaint" class="row"></span></div>
+    </div>
+    <div class="hairgrid" id="hairGrid"></div>
+    <h3 class="subhead">Beard <em>styles</em></h3>
+    <div class="beards" id="beardGrid"></div>
+    <h3 class="subhead">Face shapes <em>explained</em></h3>
+    <div class="faces" id="faceGuide"></div>
+  </section>
+
+  <!-- QUIZ -->
+  <section class="block" id="quiz">
+    <div class="quiz" id="quizBox"></div>
+  </section>
+
+  <!-- COLOURS -->
+  <section class="block" id="colours">
+    <div class="sec-head"><div><span class="eyebrow">04 · Colour Combinations</span><h2>Pairings that <em>always work</em></h2>
+    <p class="lede">Use the bigger block for your main piece (suit, trousers, kurta) and the smaller one for the shirt, jacket or accessories.</p></div></div>
+    <div class="combos" id="combos"></div>
+  </section>
+
+  <!-- STUDIO -->
+  <section class="block" id="studio">
+    <div class="sec-head"><div><span class="eyebrow">05 · The Dressing Room</span><h2>Style it <em>your way</em></h2>
+    <p class="lede">Start from any look, then change every piece: colours, prints, jackets, shoes, accessories, hairstyle, beard, skin tone and body type. Save your looks or download them as an image.</p></div></div>
+    <div class="studio">
+      <div class="stagecol">
+        <div class="stage" id="stage"></div>
+        <div class="row"><button class="btn ghost" id="drUndo">Undo</button><button class="btn ghost" id="drReset">Reset</button><button class="btn alt" id="drSave">♥ Save this look</button></div>
+        <div class="row"><button class="btn ghost" id="drDownload">Download image</button></div>
+      </div>
+      <div class="ctrls">
+        <div><h4>Start from a look</h4><div class="rail pickrail" id="drPick"></div></div>
+        <div class="tabs" role="tablist" id="drTabs"></div>
+        <div id="drPanel"></div>
+        <div><h4>Make it a real photo</h4><textarea class="promptbox" id="drPrompt" readonly aria-label="AI photo prompt"></textarea>
+        <div class="row" style="margin-top:8px"><button class="btn" id="drCopy">Copy prompt</button><span class="small" style="margin:0">Paste into ChatGPT or Gemini with your own photo attached.</span></div></div>
+        <div id="myLooksBox" hidden><h4>My saved looks</h4><div class="rail" id="myLooks"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADMIN -->
+  <section class="block" id="admin" hidden>
+    <div class="sec-head"><div><span class="eyebrow">Admin · editors only</span><h2>Run the <em>guide</em></h2>
+    <p class="lede">See who has signed up and what they save, read messages, post an announcement, choose the looks on the front page and hide looks you don’t want shown.</p></div></div>
+    <div class="admin">
+      <div class="tabs" role="tablist" id="admTabs">
+        <button role="tab" data-at="overview" aria-selected="true">Overview</button>
+        <button role="tab" data-at="members" aria-selected="false">Members</button>
+        <button role="tab" data-at="messages" aria-selected="false">Messages <span id="admMsgCount"></span></button>
+        <button role="tab" data-at="site" aria-selected="false">Site settings</button>
+      </div>
+      <div class="admp" data-ap="overview" id="admOverview"></div>
+      <div class="admp" data-ap="members" id="admMembers" hidden></div>
+      <div class="admp" data-ap="messages" id="admMessages" hidden></div>
+      <div class="admp" data-ap="site" id="admSite" hidden></div>
+    </div>
+  </section>
+
+  <!-- RULES -->
+  <section class="block" id="rules">
+    <div class="sec-head"><div><span class="eyebrow">06 · Golden Rules</span><h2>Six rules <em>every man should know</em></h2></div></div>
+    <div class="rules" id="rulesGrid"></div>
+  </section>
+  <noscript><p class="note">The interactive guide needs JavaScript. You can still browse <a href="/looks">every look</a>, the <a href="/occasions">occasion guide</a> and <a href="/hairstyles">all hairstyles</a>.</p></noscript>
+</main>
+<!--FOOTER-->
+
+<dialog id="dlg" aria-labelledby="dlgTitle"></dialog>
+<dialog id="acctDlg" aria-labelledby="acctTitle"></dialog>
+
+<script src="/assets/js/photos.js?v=1"></script>
+<script src="/assets/js/data.js?v=1"></script>
+<script src="/assets/js/engine.js?v=1"></script>
+<script src="/assets/js/ui.js?v=1"></script>
+<script src="/assets/js/account.js?v=1"></script>
+</body>
+</html>

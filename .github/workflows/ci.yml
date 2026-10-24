@@ -1,0 +1,53 @@
+name: Test and deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Syntax check
+        run: for f in server.js scripts/*.js public/assets/js/*.js; do node --check "$f"; done
+      - name: Shell scripts
+        run: for f in deploy/*.sh scripts/*.sh; do bash -n "$f"; done
+      - name: Smoke test (sign-up, login, reset, admin)
+        run: bash scripts/smoke-test.sh
+
+  # Deploys to the Hostinger VPS after tests pass on main.
+  # Turn it on by adding these repository secrets (Settings > Secrets and variables > Actions):
+  #   VPS_HOST     the VPS IP address
+  #   VPS_USER     the SSH user (root on a fresh Hostinger VPS)
+  #   VPS_SSH_KEY  a private SSH key whose public half is in that user's ~/.ssh/authorized_keys
+  #   VPS_APP_PATH (optional) where the repo is cloned on the VPS, default ~/styleguideformen
+  deploy:
+    needs: test
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    env:
+      VPS_HOST: ${{ secrets.VPS_HOST }}
+    steps:
+      - name: Skip when the VPS secrets aren't set
+        if: env.VPS_HOST == ''
+        run: echo "No VPS_HOST secret, so skipping the deploy. See README-DEPLOY.md."
+      - name: Deploy over SSH
+        if: env.VPS_HOST != ''
+        env:
+          VPS_USER: ${{ secrets.VPS_USER }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          VPS_APP_PATH: ${{ secrets.VPS_APP_PATH }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/id_deploy && chmod 600 ~/.ssh/id_deploy
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          APP="${VPS_APP_PATH:-~/styleguideformen}"
+          ssh -i ~/.ssh/id_deploy "$VPS_USER@$VPS_HOST" "cd $APP && sudo bash deploy/update.sh"
