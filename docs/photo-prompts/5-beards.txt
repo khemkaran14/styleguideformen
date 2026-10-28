@@ -1,0 +1,25 @@
+MEN’S STYLE GUIDE — CHAT 5 OF 5: BEARDS (9 images)
+Attach base/portrait.png (the head-and-shoulders photo from chat 1) before sending this.
+
+Edit the attached portrait to give the man each facial hair style below. Change ONLY the facial hair: keep his face, hair, skin, expression, charcoal T-shirt, framing, lighting and background identical. Square 1:1 (1080×1080).
+
+PHOTO STYLE (every image): photorealistic professional fashion e-commerce photography, real fabrics, true-to-life colours and stitching. Plain seamless light warm grey studio background (#ECEAE6), soft even front lighting, soft shadow under the feet. No text, logos, watermarks or borders.
+
+HOW TO WORK — follow exactly:
+- Make ONE image per reply, at full resolution (1080×1080). Never make grids, contact sheets, collages or previews, and never crop, slice or upscale images.
+- Always edit the ORIGINAL attached portrait for every style.
+- Before each image, write the file name on its own line. After each image, stop and wait. When I reply “next”, make the next image on the list.
+- Every image must show exactly what is described. If you can’t, say so and move on; never substitute something else.
+- If you can save files (ChatGPT): save each image as /mnt/data/beards/<file name>, untouched. When I say “zip”, put everything you saved into beards.zip keeping the beards/ folder, and give me the download link.
+- There are 9 images in this chat.
+
+THE LIST
+beards/clean.png — Clean Shaven: Smooth and fresh. Best for very formal events and if your beard grows patchy.
+beards/stubble.png — Light Stubble: Two to three days’ growth. Adds definition with almost no upkeep.
+beards/heavystubble.png — Heavy Stubble: About a week of growth, trimmed evenly. The most universally flattering beard.
+beards/short.png — Short Boxed Beard: A short, even beard with sharp cheek and neck lines. Smart enough for the office.
+beards/full.png — Full Beard: A fuller beard with length at the chin. Adds strength to softer jawlines.
+beards/long.png — Long Beard: A long, groomed beard that needs commitment and care.
+beards/goatee.png — Goatee: Chin hair only, sometimes with a moustache. Lengthens round faces.
+beards/circle.png — Circle Beard: A rounded goatee joined to the moustache. Neat and balanced.
+beards/moustache.png — Moustache: A classic moustache with clean-shaven cheeks. Bold and timeless in India.

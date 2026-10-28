@@ -1,0 +1,20 @@
+MEN’S STYLE GUIDE — CHAT 1 OF 5: THE BASE MODEL (2 images)
+Attach your model’s face photo before sending this.
+
+I’m building a men’s style guide website. Create the model that every other image will be edited from: the man in the attached photo. Keep his face, eyes, eyebrows, nose, jaw, skin tone, hair (medium-length dark brown wavy hair swept up and back) and light stubble exactly as in the photo.
+
+PHOTO STYLE (every image): photorealistic professional fashion e-commerce photography, real fabrics, true-to-life colours and stitching. Plain seamless light warm grey studio background (#ECEAE6), soft even front lighting, soft shadow under the feet. No text, logos, watermarks or borders.
+
+HOW TO WORK — follow exactly:
+- Make ONE image per reply, at full resolution (1080×1350 for image 1, 1080×1080 for image 2). Never make grids, contact sheets, collages or previews, and never crop, slice or upscale images.
+- Use the attached face photo as the identity reference for both images.
+- Before each image, write the file name on its own line. After each image, stop and wait. When I reply “next”, make the next image on the list.
+- Every image must show exactly what is described. If you can’t, say so and move on; never substitute something else.
+- If you can save files (ChatGPT): save each image as /mnt/data/base/<file name>, untouched. When I say “zip”, put everything you saved into base.zip keeping the base/ folder, and give me the download link.
+- There are 2 images in this chat.
+
+base/base.png — FULL BODY, portrait 4:5 (1080×1350). Head to toe including shoes. Standing straight and relaxed, facing the camera square-on, feet slightly apart (about hip width), arms hanging straight down with a small gap between arms and body, hands relaxed, neutral confident expression. Top of the head about 6% from the top edge, soles about 6% from the bottom edge, body centred. Wearing: a plain fitted white crew-neck T-shirt (untucked), slim beige chinos, plain white leather sneakers. No watch, jewellery, belt or bag.
+
+base/portrait.png — HEAD AND SHOULDERS, square 1:1 (1080×1080). The same man facing the camera, head centred with space above the hair, shoulders visible, wearing a plain charcoal crew-neck T-shirt. Neutral expression.
+
+When both are done and I’m happy with them, I’ll download them and use them in the next chats.

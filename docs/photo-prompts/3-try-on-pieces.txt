@@ -1,0 +1,90 @@
+MEN’S STYLE GUIDE — CHAT 3 OF 5: DRESSING ROOM PIECES (74 images)
+Attach base/base.png (the full-body base photo from chat 1) before sending this.
+
+These power the website’s Dressing Room, which lays each piece over the base photo, so alignment is everything. Edit the attached base photo and change ONLY the one item named. Everything else must stay exactly as in the base photo: the same pose, same position in the frame, same camera distance and angle, same face, hair, stubble, skin tone, body, lighting and background as the attached base photo, and the rest of the outfit (white T-shirt, beige chinos, white sneakers) unless the item replaces it. Portrait 4:5 (1080×1350), full body.
+
+PHOTO STYLE (every image): photorealistic professional fashion e-commerce photography, real fabrics, true-to-life colours and stitching. Plain seamless light warm grey studio background (#ECEAE6), soft even front lighting, soft shadow under the feet. No text, logos, watermarks or borders.
+
+HOW TO WORK — follow exactly:
+- Make ONE image per reply, at full resolution (1080×1350). Never make grids, contact sheets, collages or previews, and never crop, slice or upscale images.
+- Always edit the ORIGINAL attached base photo for every item (not the previous edit), so each image differs from the base in one item only.
+- Before each image, write the file name on its own line. After each image, stop and wait. When I reply “next”, make the next image on the list.
+- Every image must show exactly what is described. If you can’t, say so and move on; never substitute something else.
+- If you can save files (ChatGPT): save each image as /mnt/data/tryon/<file name>, untouched. When I say “zip”, put everything you saved into tryon.zip keeping the tryon/ folder, and give me the download link.
+- There are 74 images in this chat.
+
+THE LIST (file name — what to change)
+tryon/t-tee-black.png — replace or add: a plain black crew-neck T-shirt (untucked)
+tryon/t-shirt-white.png — replace or add: a crisp white dress shirt, collar open, tucked in
+tryon/t-shirt-blue.png — replace or add: a light blue oxford button-down shirt, tucked in
+tryon/t-shirt-tie-burgundy.png — replace or add: a white dress shirt tucked in, with a burgundy silk tie
+tryon/t-shirt-tie-navy.png — replace or add: a light blue dress shirt tucked in, with a navy silk tie
+tryon/t-shirt-bowtie.png — replace or add: a white dress shirt tucked in, with a black bow tie
+tryon/t-polo-navy.png — replace or add: a navy piqué polo shirt, tucked in
+tryon/t-henley-burgundy.png — replace or add: a burgundy henley
+tryon/t-sweater-grey.png — replace or add: a grey crew-neck merino sweater
+tryon/t-turtleneck-black.png — replace or add: a black merino turtleneck
+tryon/t-hoodie-grey.png — replace or add: a grey-blue hoodie
+tryon/t-shirt-print.png — replace or add: a short-sleeve cream tropical print shirt
+tryon/t-kurta-white.png — replace or add: a white chikankari short kurta (mid-thigh)
+tryon/t-kurta-blockprint.png — replace or add: an indigo block-print short kurta (mid-thigh)
+tryon/t-kurta-black.png — replace or add: a black silk short kurta (mid-thigh)
+tryon/l-blazer-navy.png — replace or add: an open navy blazer over the T-shirt, white pocket square
+tryon/l-blazer-grey.png — replace or add: an open light grey unstructured blazer over the T-shirt
+tryon/l-nehru-maroon.png — replace or add: a maroon brocade Nehru jacket (buttoned) over the T-shirt
+tryon/l-nehru-black.png — replace or add: a black Nehru jacket (buttoned) over the T-shirt
+tryon/l-bandhgala-navy.png — replace or add: a navy bandhgala jacket with gold buttons, fully buttoned
+tryon/l-denim-jacket.png — replace or add: an open mid-wash denim jacket over the T-shirt
+tryon/l-leather-jacket.png — replace or add: an open black leather biker jacket over the T-shirt
+tryon/l-bomber-olive.png — replace or add: an open olive bomber jacket over the T-shirt
+tryon/l-overshirt-rust.png — replace or add: an open rust overshirt over the T-shirt
+tryon/l-cardigan-brown.png — replace or add: an open chocolate knit cardigan over the T-shirt
+tryon/l-overcoat-camel.png — replace or add: an open camel wool overcoat (knee length) over the outfit
+tryon/l-trench-stone.png — replace or add: an open stone trench coat (knee length) over the outfit
+tryon/b-chinos-navy.png — replace or add: navy slim chinos
+tryon/b-jeans-blue.png — replace or add: mid-blue slim jeans
+tryon/b-jeans-black.png — replace or add: black slim jeans
+tryon/b-trousers-charcoal.png — replace or add: charcoal tailored trousers
+tryon/b-trousers-black.png — replace or add: black tailored trousers
+tryon/b-linen-white.png — replace or add: white relaxed linen trousers
+tryon/b-joggers-grey.png — replace or add: charcoal tapered joggers
+tryon/b-shorts-sand.png — replace or add: sand chino shorts (above the knee)
+tryon/b-cargo-olive.png — replace or add: olive cargo trousers
+tryon/b-churidar-white.png — replace or add: a white churidar (gathered at the ankle)
+tryon/b-pyjama-white.png — replace or add: white straight cotton kurta pyjama trousers
+tryon/b-dhoti-ivory.png — replace or add: an ivory dhoti with a gold border
+tryon/s-oxford-brown.png — replace or add: dark brown leather oxford shoes
+tryon/s-oxford-black.png — replace or add: black leather oxford shoes
+tryon/s-loafers-tan.png — replace or add: tan suede penny loafers
+tryon/s-sneakers-black.png — replace or add: black minimal leather sneakers
+tryon/s-chelsea-brown.png — replace or add: brown suede Chelsea boots
+tryon/s-boots-black.png — replace or add: black leather lace-up boots
+tryon/s-mojari-gold.png — replace or add: gold embroidered mojaris (juttis)
+tryon/s-kolhapuri.png — replace or add: tan Kolhapuri chappals
+tryon/s-sandals-brown.png — replace or add: brown leather sandals
+tryon/s-slides-black.png — replace or add: black slides
+tryon/w-watch-steel.png — replace or add: a steel watch on his left wrist
+tryon/w-watch-gold.png — replace or add: a gold watch on his left wrist
+tryon/w-watch-leather.png — replace or add: a watch with a brown leather strap on his left wrist
+tryon/w-smartwatch.png — replace or add: a black smartwatch on his left wrist
+tryon/w-bracelet-beads.png — replace or add: a black bead bracelet on his left wrist
+tryon/w-kada-silver.png — replace or add: a silver kada on his right wrist
+tryon/y-aviator.png — replace or add: gold aviator sunglasses
+tryon/y-wayfarer.png — replace or add: black wayfarer sunglasses
+tryon/y-round-glasses.png — replace or add: round tortoiseshell glasses
+tryon/h-cap-black.png — replace or add: a black baseball cap
+tryon/h-cap-white.png — replace or add: a white baseball cap
+tryon/h-beanie-grey.png — replace or add: a grey beanie
+tryon/h-fedora.png — replace or add: a brown felt fedora
+tryon/h-safa-pink.png — replace or add: a rani pink groom safa (turban) with a kalgi brooch
+tryon/h-safa-saffron.png — replace or add: a saffron and red festive safa (turban)
+tryon/c-chain-gold.png — replace or add: a thin gold chain
+tryon/c-rudraksha.png — replace or add: a rudraksha mala
+tryon/c-pearl-mala.png — replace or add: a long pearl groom mala
+tryon/f-stole-gold.png — replace or add: a gold silk stole draped over his left shoulder
+tryon/f-shawl-grey.png — replace or add: a grey wool shawl draped over his shoulders
+tryon/f-scarf-plaid.png — replace or add: a plaid wool scarf around his neck
+tryon/g-backpack-black.png — replace or add: a black backpack on his right shoulder
+tryon/g-messenger-brown.png — replace or add: a brown leather messenger bag across his body
+tryon/g-briefcase-tan.png — replace or add: a tan leather briefcase in his right hand
+tryon/g-tote-canvas.png — replace or add: a canvas tote bag on his right shoulder

@@ -1,0 +1,58 @@
+MEN’S STYLE GUIDE — CHAT 2 OF 5: OUTFITS (42 images)
+Attach base/base.png (the full-body base photo from chat 1) before sending this.
+
+Edit the attached base photo to dress the man in each outfit below. Keep the same pose, same position in the frame, same camera distance and angle, same face, hair, stubble, skin tone, body, lighting and background as the attached base photo. Only the clothes, shoes and listed accessories change. Full body head to toe with shoes visible, portrait 4:5 (1080×1350).
+
+PHOTO STYLE (every image): photorealistic professional fashion e-commerce photography, real fabrics, true-to-life colours and stitching. Plain seamless light warm grey studio background (#ECEAE6), soft even front lighting, soft shadow under the feet. No text, logos, watermarks or borders.
+
+HOW TO WORK — follow exactly:
+- Make ONE image per reply, at full resolution (1080×1350). Never make grids, contact sheets, collages or previews, and never crop, slice or upscale images.
+- Always edit the attached base photo; never generate a new person or a new pose.
+- Before each image, write the file name on its own line. After each image, stop and wait. When I reply “next”, make the next image on the list.
+- Every image must show exactly what is described. If you can’t, say so and move on; never substitute something else.
+- If you can save files (ChatGPT): save each image as /mnt/data/looks/<file name>, untouched. When I say “zip”, put everything you saved into looks.zip keeping the looks/ folder, and give me the download link.
+- There are 42 images in this chat.
+
+THE LIST
+looks/chikankurta.png — White Chikankari Kurta Pyjama: White chikankari kurta, White cotton pyjama. Colours: white cotton with white chikankari embroidery. Shoes: Tan. Accessories: A simple steel or leather watch.
+looks/groomsherwani.png — Ivory & Gold Groom Sherwani: Ivory brocade sherwani, Off-white churidar, Rani pink safa with kalgi, Maroon silk dupatta. Colours: ivory brocade with gold zari, rani pink safa. Shoes: Gold embroidered mojaris. Accessories: Pearl or kundan mala. Add a rani pink groom safa (turban) with a kalgi brooch and a maroon dupatta over his left shoulder.
+looks/navybandhgala.png — Navy Bandhgala Suit: Navy bandhgala jacket, Matching slim trousers, White shirt or no shirt underneath. Colours: midnight navy wool with gold buttons. Shoes: Black. Accessories: Gold pocket square.
+looks/nehrubrocade.png — Brocade Nehru Jacket & Kurta: Maroon brocade Nehru jacket, White short kurta, White churidar. Colours: maroon brocade jacket over a white kurta. Shoes: Dark brown embroidered juttis. Accessories: Gold pocket square or brooch.
+looks/haldikurta.png — Haldi Yellow Kurta & Dhoti: Yellow cotton short kurta, Ivory dhoti with gold border. Colours: turmeric yellow cotton with an ivory dhoti. Shoes: Tan kolhapuri chappals. Accessories: A marigold garland if the family hands one out.
+looks/kasavumundu.png — Kasavu Mundu & White Shirt: Off-white kasavu mundu, White half or full sleeve shirt. Colours: off-white mundu with a gold kasavu border. Shoes: Simple leather sandals. Accessories: A gold chain.
+looks/pathani.png — Olive Pathani Suit: Olive pathani kurta, Matching salwar. Colours: olive green cotton with a matching salwar. Shoes: Brown peshawari chappals. Accessories: A leather watch.
+looks/mintkurta.png — Mint Kurta & Churidar: Mint cotton silk kurta, White churidar. Colours: mint green cotton silk with white churidar. Shoes: White. Accessories: A printed pocket square if you add a jacket.
+looks/blackkurta.png — Black Kurta, Churidar & Stole: Black silk kurta, Black churidar, Gold silk stole. Colours: black silk kurta with a gold stole. Shoes: Black velvet mojaris. Accessories: A statement watch or a ring.
+looks/silkkurta.png — Rose Gold Silk Kurta Set: Rose gold silk kurta, Matching silk pyjama. Colours: blush rose silk with gold buttons. Shoes: Gold. Accessories: Gold buttons.
+looks/angrakha.png — White Angrakha & Churidar: Ivory angrakha kurta, Ivory churidar. Colours: ivory cotton silk with a gold tie. Shoes: Gold mojaris. Accessories: A gold or kundan mala.
+looks/khadinehru.png — Khadi Kurta & Nehru Vest: Off-white khadi kurta, Charcoal khadi Nehru vest, Off-white trousers. Colours: natural khadi kurta with a charcoal vest. Shoes: Brown leather sandals. Accessories: A fountain pen in the vest pocket.
+looks/velvetbandhgala.png — Emerald Velvet Bandhgala: Emerald velvet bandhgala, Black slim trousers. Colours: emerald velvet with antique gold buttons. Shoes: Black patent. Accessories: Antique gold buttons.
+looks/navratri.png — Mirror-work Navratri Kurta: Pink mirror-work short kurta, White dhoti. Colours: deep pink kurta with mirror dots and a white dhoti. Shoes: Kolhapuris. Accessories: Colourful bracelets.
+looks/kurtajeans.png — Block-print Kurta & Jeans: Indigo block-print short kurta, Slim blue jeans. Colours: indigo block-print cotton with blue jeans. Shoes: White sneakers. Accessories: A canvas tote.
+looks/indowestern.png — Indo-western Long Jacket: Teal long jacket with gold trim, Black short kurta, Black slim trousers. Colours: teal long jacket with gold trim over black. Shoes: Black loafers. Accessories: A brooch at the collar.
+looks/nehrushirt.png — Nehru Jacket, Shirt & Chinos: Navy Nehru jacket, White shirt, Beige chinos. Colours: navy Nehru jacket over a white shirt with beige chinos. Shoes: Brown loafers. Accessories: A pocket square.
+looks/bandhgalajeans.png — Bandhgala Jacket & Jeans: Black bandhgala jacket, Dark indigo slim jeans. Colours: black bandhgala jacket with dark indigo jeans. Shoes: Brown Chelsea boots. Accessories: A steel watch.
+looks/kurtachinos.png — Short Kurta & Chinos: Sky blue short kurta, White chinos. Colours: sky blue cotton kurta with white chinos. Shoes: Tan loafers. Accessories: Leather watch.
+looks/printdhoti.png — Printed Shirt & Dhoti Pants: Floral silk shirt, Ivory dhoti pants. Colours: floral silk shirt with ivory dhoti pants. Shoes: Gold mojaris. Accessories: Stacked bracelets.
+looks/linenkurta.png — Linen Kurta & White Trousers: Sand linen short kurta, White linen trousers. Colours: sand linen kurta with white trousers. Shoes: Leather sandals. Accessories: Sunglasses.
+looks/blackfusion.png — Black Kurta & Black Jeans: Black short kurta, Black slim jeans. Colours: black cotton kurta with black jeans. Shoes: Black boots. Accessories: Silver ring.
+looks/mandarinshirt.png — Mandarin-collar Shirt & Trousers: Olive mandarin-collar shirt, Charcoal trousers. Colours: olive band-collar shirt with charcoal trousers. Shoes: Black derbies. Accessories: Minimal watch.
+looks/kurtablazer.png — Kurta with a Blazer: Charcoal blazer, Ivory short kurta, Ivory churidar. Colours: grey blazer over an ivory kurta. Shoes: Black loafers. Accessories: Silk pocket square.
+looks/navysuit.png — Navy Two-piece Suit: Navy two-button suit, White shirt, Burgundy silk tie. Colours: navy wool suit, white shirt, burgundy tie. Shoes: Dark brown. Accessories: White pocket square.
+looks/tuxedo.png — Black Tuxedo: Black dinner jacket, Black trousers with satin stripe, White dress shirt, Black bow tie. Colours: black wool with satin lapels and a bow tie. Shoes: Black patent oxfords. Accessories: Cufflinks.
+looks/smartcasual.png — Grey Blazer, White Shirt & Chinos: Light grey blazer, White oxford shirt, Navy chinos. Colours: grey blazer with a white shirt and navy chinos. Shoes: Brown suede loafers. Accessories: Pocket square.
+looks/oxfordchinos.png — Oxford Shirt & Chinos: Light blue oxford shirt, Beige chinos, Brown belt. Colours: light blue oxford with beige chinos. Shoes: Brown derbies. Accessories: Leather watch.
+looks/teejeans.png — White Tee & Blue Jeans: Fitted white crew-neck tee, Mid-blue slim jeans. Colours: white crew-neck tee with mid-blue jeans. Shoes: White leather sneakers. Accessories: Steel watch.
+looks/polochinos.png — Polo & Chinos: Teal polo shirt, Stone chinos. Colours: teal polo with stone chinos. Shoes: Tan loafers. Accessories: Brown belt.
+looks/denimjacket.png — Denim Jacket, Black Tee & Black Jeans: Mid-wash denim jacket, Black tee, Black slim jeans. Colours: mid-wash denim jacket over all black. Shoes: Brown Chelsea boots. Accessories: A beanie in winter.
+looks/leatherjacket.png — Leather Jacket & Boots: Black leather jacket, Grey or white tee, Black slim jeans. Colours: black leather jacket with a grey tee and black jeans. Shoes: Black lace-up boots. Accessories: Aviator sunglasses.
+looks/athleisure.png — Hoodie & Joggers: Grey-blue hoodie, Charcoal tapered joggers. Colours: grey-blue hoodie with charcoal joggers. Shoes: Grey. Accessories: A cap.
+looks/turtleneckcoat.png — Turtleneck & Camel Overcoat: Camel overcoat, Black merino turtleneck, Charcoal trousers. Colours: black turtleneck under a camel overcoat. Shoes: Dark brown Chelsea boots. Accessories: Leather gloves.
+looks/linenshorts.png — Linen Shirt & Chino Shorts: White linen shirt, Sand chino shorts. Colours: white linen shirt with sand shorts. Shoes: Leather sandals. Accessories: Sunglasses.
+looks/tropical.png — Tropical Print Shirt: Cream tropical print shirt, White relaxed trousers. Colours: cream tropical print with white trousers. Shoes: Tan loafers. Accessories: Sunglasses.
+looks/bomber.png — Bomber Jacket & Chinos: Olive bomber jacket, White tee, Black chinos. Colours: olive bomber over a white tee with black chinos. Shoes: White. Accessories: Cap.
+looks/cardigan.png — Cardigan, Tee & Trousers: Chocolate knit cardigan, Cream tee, Grey trousers. Colours: chocolate cardigan over a cream tee. Shoes: Suede loafers. Accessories: Round glasses.
+looks/trench.png — Trench Coat & Office Wear: Stone trench coat, White shirt, Navy trousers. Colours: stone trench over a navy suit look. Shoes: Black. Accessories: Leather briefcase.
+looks/henley.png — Henley, Jeans & Chelsea Boots: Burgundy henley, Dark slim jeans. Colours: burgundy henley with dark jeans. Shoes: Brown suede Chelsea boots. Accessories: Leather bracelet.
+looks/shacket.png — Overshirt, Tee & Chinos: Rust overshirt, White tee, Khaki chinos. Colours: rust overshirt over a white tee. Shoes: Desert boots. Accessories: Canvas backpack.
+looks/gingham.png — Gingham Shirt & Navy Chinos: Blue gingham shirt, Navy chinos. Colours: blue gingham with navy chinos. Shoes: White sneakers. Accessories: Watch with a fabric strap.

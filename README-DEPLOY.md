@@ -121,7 +121,7 @@ Google usually starts showing pages within a few days to a few weeks. Search Con
 
 The site works straight away with its own drawn illustrations. To use photos of a model instead:
 
-1. Follow `docs/chatgpt-photo-prompts.md` to create the photo package in ChatGPT (outfits, hairstyles and beards, named exactly as listed).
+1. Follow `docs/photo-prompts/README.md` to create the photo pack in ChatGPT or Gemini (a base photo, then outfits, Dressing Room pieces, hairstyles and beards as edits of it).
 2. Send the zip(s) to Claude in this project, or, on a computer with Node.js, run `npm i -D playwright && npx playwright install chromium`, then `npm run photos -- path/to/package.zip`. Photos are resized, named and used everywhere automatically; anything missing keeps its illustration.
 3. Commit and push, then update the VPS (below).
 

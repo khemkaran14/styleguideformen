@@ -16,7 +16,7 @@ The companion site for women is [khemkaran14/styleguideforwomen](https://github.
 
 ## Images
 
-Every look, hairstyle and beard is drawn by the site’s own illustration engine (`public/assets/js/engine.js`), so the site is complete without photos. To use photos of a model, follow `docs/chatgpt-photo-prompts.md` and import the package with `npm run photos -- package.zip`; photos replace the illustrations wherever they exist. `npm run images` redraws the illustrations after changing looks in `public/assets/js/data.js`. Both scripts need Playwright (developer machines only).
+Every look, hairstyle and beard is drawn by the site’s own illustration engine (`public/assets/js/engine.js`), so the site is complete without photos. To use photos of a model, follow `docs/photo-prompts/README.md` and import the package with `npm run photos -- package.zip`; photos replace the illustrations wherever they exist. `npm run images` redraws the illustrations after changing looks in `public/assets/js/data.js`. Both scripts need Playwright (developer machines only).
 
 ## Tech
 

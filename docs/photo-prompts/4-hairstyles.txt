@@ -1,0 +1,42 @@
+MEN’S STYLE GUIDE — CHAT 4 OF 5: HAIRSTYLES (26 images)
+Attach base/portrait.png (the head-and-shoulders photo from chat 1) before sending this.
+
+Edit the attached portrait to give the man each hairstyle below. Change ONLY the hair: keep his face, stubble, skin, expression, charcoal T-shirt, framing, lighting and background identical. Make each style clearly and accurately recognisable. Square 1:1 (1080×1080).
+
+PHOTO STYLE (every image): photorealistic professional fashion e-commerce photography, real fabrics, true-to-life colours and stitching. Plain seamless light warm grey studio background (#ECEAE6), soft even front lighting, soft shadow under the feet. No text, logos, watermarks or borders.
+
+HOW TO WORK — follow exactly:
+- Make ONE image per reply, at full resolution (1080×1080). Never make grids, contact sheets, collages or previews, and never crop, slice or upscale images.
+- Always edit the ORIGINAL attached portrait for every style.
+- Before each image, write the file name on its own line. After each image, stop and wait. When I reply “next”, make the next image on the list.
+- Every image must show exactly what is described. If you can’t, say so and move on; never substitute something else.
+- If you can save files (ChatGPT): save each image as /mnt/data/hair/<file name>, untouched. When I say “zip”, put everything you saved into hair.zip keeping the hair/ folder, and give me the download link.
+- There are 26 images in this chat.
+
+THE LIST
+hair/crew.png — Crew Cut: Short, tapered sides with a little more length on top. Neat, masculine and works almost everywhere. Barber spec: Number 2 or 3 on the sides, tapered at the neck, about 2–3 cm on top with scissors, slightly longer at the front.
+hair/buzz.png — Buzz Cut: The same short length all over with clippers. Zero styling, very clean, best with a strong jawline. Barber spec: Number 2 or 3 all over (or number 1 on the sides and 2 on top), with a clean neckline.
+hair/shaved.png — Shaved Head: Fully shaved for a bold, confident look. A great choice when hair is thinning. Barber spec: Clipper to zero, then a wet shave or foil shave. Or shave at home every 2–3 days.
+hair/ivy.png — Ivy League: A slightly longer crew cut with enough length on top for a side part. Preppy and polished. Barber spec: Number 3 on the sides tapered at the back, 4–5 cm on top, long enough to part on the side.
+hair/caesar.png — Caesar Cut: Short horizontal fringe brushed forward with even length on top. Great for receding hairlines and long faces. Barber spec: Number 2 on the sides, 2–3 cm on top, fringe cut straight across just above the eyebrows.
+hair/crop.png — French Crop: A short, textured top pushed forward into a blunt fringe, with faded sides. Barber spec: Skin or number 1 fade on the sides, 3–4 cm on top, textured with point cutting, short blunt fringe.
+hair/textcrop.png — Textured Crop: A modern messy crop with more height and choppy texture on top. Very forgiving and on-trend. Barber spec: Mid skin fade, 5–6 cm on top heavily textured, fringe left slightly longer and choppy.
+hair/messy.png — Messy Fringe: Longer textured top falling forward in a loose, piece-y fringe. Youthful and relaxed. Barber spec: Number 3–4 on the sides blended up, 7–8 cm on top, textured and left long at the front.
+hair/brushup.png — Brush Up: Short sides with the top brushed straight up for clean height. Makes round faces look longer. Barber spec: Number 1–2 on the sides, 5–6 cm on top, gradually longer towards the front.
+hair/spiky.png — Spiky Hair: Short top styled into separate spikes. A throwback that works with straight, thick hair. Barber spec: Number 2 on the sides, 4–5 cm on top, cut with texture so it separates.
+hair/fauxhawk.png — Faux Hawk: A strip of longer hair in the centre styled up and towards the middle, with short faded sides. Barber spec: Skin or low fade on the sides, keep 5–7 cm in a strip down the centre, shorter at the back.
+hair/quiff.png — Quiff: Volume at the front swept up and back. The go-to modern smart style. Barber spec: Number 2 fade on the sides, 7–9 cm at the front reducing to 4 cm at the crown.
+hair/pompadour.png — Pompadour: A big, rounded wave of hair swept up and back with shine. Classic and dramatic. Barber spec: Taper or fade on the sides, 9–12 cm at the front, length kept all through the top so it can roll back.
+hair/sidepart.png — Side Part: A clean side parting with tapered sides. The gentleman’s classic. Barber spec: Scissor-cut taper on the sides, 5–6 cm on top, and a natural parting on the side where your hair falls.
+hair/combover.png — Comb Over Fade: A side-swept top with a shaved-in hard part and high skin fade. Sharper than a side part. Barber spec: High skin fade, hard part shaved in on your natural side, 6–7 cm on top swept across.
+hair/slickback.png — Slick Back: Hair combed straight back with shine for a sleek, polished look. Barber spec: Taper on the sides, 7–9 cm all over the top so it lies back smoothly.
+hair/undercut.png — Undercut: Very short sides and back with a long top and a clear disconnection, styled back or to the side. Barber spec: Number 1 on the sides and back with no blending, 10–12 cm on top, disconnected.
+hair/taperfade.png — Taper Fade: Short top with sides that fade smoothly from skin to hair. Tidy and easy to keep. Barber spec: Low or mid skin taper fade, 3–4 cm on top, natural shape kept at the front.
+hair/middlepart.png — Middle Part (Curtains): Hair parted down the middle and falling to both sides like curtains. Soft and youthful. Barber spec: Keep length all over, 10–12 cm at the front, sides scissor-cut and left long over the ears.
+hair/curlytop.png — Curly Top Fade: Natural curls kept on top with a clean fade on the sides. Lets your curls do the work. Barber spec: Mid skin fade, 5–7 cm of curls on top, shaped dry so curls sit where they fall.
+hair/afro.png — Afro: Full, rounded natural volume all around. Healthy and striking. Barber spec: Shape it into an even round silhouette, trim the ends and tidy the edges and neckline.
+hair/twists.png — Twists: Short two-strand or sponge twists on top with a faded side. Barber spec: Low taper fade on the sides, 4–6 cm on top for twists, with a lined-up edge.
+hair/manbun.png — Man Bun: Long hair pulled back and tied in a bun at the crown. Practical for growing out hair. Barber spec: Keep the length; ask for dusting the ends and tidying the sides so they tie back neatly.
+hair/longflow.png — Long Flow: Chin to neck length hair swept back and tucked behind the ears. Relaxed and confident. Barber spec: Trim the ends only, add light layers for movement, and keep the back slightly shorter.
+hair/shoulder.png — Shoulder-length Hair: Long, layered hair worn loose to the shoulders with a middle part. Barber spec: Long layers to remove weight, ends trimmed, middle part kept natural.
+hair/mullet.png — Modern Mullet: Short textured front and sides with longer hair at the back. A bold comeback cut. Barber spec: Taper the sides, 4–5 cm textured on top, keep 8–10 cm at the back of the neck.
